@@ -23,6 +23,8 @@ h1 {
 
 }
 
+
+
 .headerdiv {
     display: flex;
     flex-flow: column wrap;
@@ -56,14 +58,10 @@ fieldset {
 
 }
 
-#area {
-    border-radius: 5px;
-}
-
 legend {
     font-weight: 700;
-    margin-bottom: 30px;
-
+    margin-bottom: 15px;
+    font-size: xx-large;
 }
 
 input,
@@ -73,8 +71,78 @@ select {
     height: 3em;
 }
 
-.column {
-    display: flex;
-    flex-flow: row;
-    border: 3px solid firebrick;
+label {
+    opacity: 850%;
+    color: rgb(97, 197, 204);
 }
+
+.check-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 0px;
+  
+}
+
+.check-container label {
+    margin: 0px 10px;
+    padding: 0px;
+}
+
+.check-container input {
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading-para {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(97, 197, 204);
+}
+.radio-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.radio-container label {
+    margin: 0px 10px;
+    padding: 0px;
+}
+
+.radio-container input {
+    margin: 0px 10px;
+    padding: 0px;
+}
+
+#second-border {
+    border-top: black solid 3px;
+    padding-top: 30px;
+    width: 100%;
+}
+
+#area {
+    border-radius: 5px;
+}
+
+label[for="area"] {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+#signup {
+    background-color: rgb(97, 197, 204);
+    color: white;
+}
+
+#copyright {
+    font-style: italic;
+    text-align: center;
+    font-weight: 100;
+    opacity: 50%;
+    color: black;
+}
+
+
+
+
