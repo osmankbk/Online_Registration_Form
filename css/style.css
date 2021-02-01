@@ -28,7 +28,7 @@ h1 {
     flex-flow: column wrap;
     align-items: center;
     padding: 30px 15px;
-    margin: 50px 15px;
+    margin: 2px 15px;
     border-bottom: black solid 5px;
 }
 
@@ -43,3 +43,38 @@ h1 {
     text-align: center;
 }
 
+main {
+    margin: 2px 15px;
+    border-top: black solid 3px;
+    padding: 20px;
+}
+
+fieldset {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 30px;
+
+}
+
+#area {
+    border-radius: 5px;
+}
+
+legend {
+    font-weight: 700;
+    margin-bottom: 30px;
+
+}
+
+input,
+select {
+    background-color: whitesmoke;
+    margin: 20px 0px;
+    height: 3em;
+}
+
+.column {
+    display: flex;
+    flex-flow: row;
+    border: 3px solid firebrick;
+}
