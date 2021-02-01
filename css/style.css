@@ -6,3 +6,40 @@ body {
     font-family: 'Nunito', sans-serif, 'Josefin Sans', sans-serif;
     letter-spacing: .5px;
 }
+
+header {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+h1 {
+    display: flex;
+    width: 100%;
+    font-size: x-large;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+.headerdiv {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 30px 15px;
+    margin: 50px 15px;
+    border-bottom: black solid 5px;
+}
+
+.headerdiv h2 {
+    font-size: larger;
+    font-weight: 700;
+    color: black;
+    margin: 10px 0;
+}
+
+.headerdiv p {
+    text-align: center;
+}
+
