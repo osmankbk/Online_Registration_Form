@@ -45,17 +45,18 @@ h1 {
     flex-flow: column wrap;
     align-items: center;
     padding: 30px 15px;
-    margin: 2px 15px;
+    margin: 2px 20px;
     border-bottom: black solid 5px;
 }
 
 main {
-    margin: 2px 15px;
+    margin: 2px 20px;
     border-top: black solid 3px;
     padding: 20px;
 }
 
-fieldset {
+fieldset,
+.contact-div {
     display: flex;
     flex-flow: column wrap;
     margin-top: 30px;
@@ -69,11 +70,18 @@ legend {
 }
 
 input,
-select {
+select,
+textarea {
     background-color: rgb(180, 146, 146);
     margin: 20px 0px;
     height: 3em;
     border-radius: 5px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: 3px solid lightblue;
 }
 
 label {
@@ -143,6 +151,10 @@ label {
     color: black;
 }
 
+#zip {
+    width: 50%;
+}
+
 /* Pseudo Class And Element Styles ---------------- */
 
 label[for="area"] {
@@ -155,3 +167,24 @@ input::placeholder {
 }
 
 /* Media Queries ---------------- */
+
+@media(min-width: 768px) {
+    .contact-div {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+
+    .contact-div input,
+    .contact-div select {
+        flex-basis: 90%;
+    }
+    .contact-div label {
+        flex-basis: 10%;
+    }
+
+    #zip {
+        flex-basis: 25%;
+    
+    }
+}
