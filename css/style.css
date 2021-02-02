@@ -72,10 +72,17 @@ legend {
 input,
 select,
 textarea {
-    background-color: rgb(180, 146, 146);
+    background-color: lightslategray;
     margin: 20px 0px;
     height: 3em;
     border-radius: 5px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    transition: background-color 0.5s ease;
+    background-color: rgb(180, 146, 146);
 }
 
 input:focus,
@@ -136,6 +143,7 @@ label {
 
 #area {
     border-radius: 5px;
+    height: 100px;
 }
 
 #signup {
@@ -162,13 +170,30 @@ label[for="area"] {
     margin-bottom: 15px;
 }
 
-input::placeholder {
+input::placeholder,
+textarea::placeholder {
     color: black;
 }
 
 /* Media Queries ---------------- */
 
 @media(min-width: 768px) {
+
+    .headerdiv {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        padding: 30px 15px;
+        margin: 2px 100px;
+        border-bottom: black solid 5px;
+    }
+
+    main {
+        margin: 2px 100px 100px 100px;
+        border-top: black solid 3px;
+        padding: 20px;
+    }
+
     .contact-div {
         display: flex;
         flex-flow: row wrap;
