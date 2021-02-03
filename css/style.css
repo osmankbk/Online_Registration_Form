@@ -181,21 +181,6 @@ textarea::placeholder {
 
 @media(min-width: 768px) {
 
-    .headerdiv {
-        display: flex;
-        flex-flow: column wrap;
-        align-items: center;
-        padding: 30px 15px;
-        margin: 2px 100px;
-        border-bottom: black solid 5px;
-    }
-
-    main {
-        margin: 2px 100px 100px 100px;
-        border-top: black solid 3px;
-        padding: 20px;
-    }
-
     .contact-div {
         display: flex;
         flex-flow: row wrap;
@@ -204,10 +189,11 @@ textarea::placeholder {
 
     .contact-div input,
     .contact-div select {
-        flex-basis: 90%;
+        flex-basis: 83%;
     }
+    
     .contact-div label {
-        flex-basis: 10%;
+        flex-basis: 17%;
     }
 
     #zip {
