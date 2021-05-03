@@ -1,3 +1,3 @@
 # Online_Registration_Form
 
- A responsive, mobile-friendly registration form using a wide variety of HTML form input types and attributes. Built a mobile and desktop version of this form, using media queries, and a "mobile-first" approach.
+ A responsive, mobile-friendly registration form using a wide variety of HTML form input types and attributes. I Built a mobile and desktop version of this form, using media queries, and a "mobile-first" approach. Wth accessibility first, gave all input fields placeholders, and **required** attribute to add **HTML5 validation** to make sure that required fields are filled out and input is formatted correctly.
