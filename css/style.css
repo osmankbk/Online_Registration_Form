@@ -153,6 +153,10 @@ label {
     color: white;
 }
 
+#signup:hover {
+    border-bottom: 3px solid palevioletred;
+}
+
 #copyright {
     font-style: italic;
     text-align: center;
